@@ -65,11 +65,13 @@ def plot_average_similarity_scores(df, attr="gender", model="Mistral (7B)"):
       hue="SensitiveValue"
   )
 
-  plt.title(f"Average Similarity Scores by {attr.capitalize()} - {model}")
-  plt.ylabel("Similarity Score")
-  plt.xlabel("Metric")
+  plt.title(f"Average Similarity Scores by {attr.capitalize()} - {model}", fontsize=16)
+  plt.ylabel("Similarity Score", fontsize=14)
+  plt.xlabel("Metric", fontsize=14)
+  plt.xticks(fontsize=12)
+  plt.yticks(fontsize=12)
   plt.ylim(0, 1)
-  plt.legend(title="SensitiveValue")
+  plt.legend(title="SensitiveValue", fontsize=12, title_fontsize=13)
   plt.tight_layout()
   plt.show()
 
