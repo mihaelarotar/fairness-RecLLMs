@@ -1,7 +1,4 @@
-# Can fairness be prompted? Prompt-based debiasing strategies in high-stakes recommendations
-
-This repository contains the implementation code for the paper **Can fairness be prompted?
-Prompt-based debiasing strategies in high-stakes recommendations**, submitted to the **SIGIR 2026 Short Paper Track**.
+# Fairness in LLM-based Recommender Systems
 
 ## Overview
 
